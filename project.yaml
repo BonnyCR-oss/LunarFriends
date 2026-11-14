@@ -1,0 +1,19 @@
+# Codex Game Studios; see .codex/docs/config-resolution.md
+schema_version: 1
+framework:
+  version: 1.2.0
+  runtime: codex
+  kit_version: 1.0.0
+modes:
+  automation: guided
+updates:
+  check: false
+# Rigor defaults to minimal. Do not pin its six derived settings here.
+engine:
+  name: Unity
+  language: "C#"
+  version: "6000.5.6f1"
+specialists:
+  code: unity-specialist
+  shader: unity-shader-specialist
+  ui: unity-ui-specialist

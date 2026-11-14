@@ -172,3 +172,9 @@ LightingData.asset     binary
 
 # Excepcion: imagen PNG almacenada directamente en Git
 /Assets/TutorialInfo/Icons/URP.png -filter -diff -merge -lfs
+
+# Codex Game Studios line endings
+.codex/**/*.sh text eol=lf
+.codex/**/*.py text eol=lf
+.codex/**/*.awk text eol=lf
+.agents/skills/**/*.md text eol=lf

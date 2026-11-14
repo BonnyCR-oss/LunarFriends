@@ -112,3 +112,13 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Codex Game Studios local state
+project.local.yaml
+AGENTS.override.md
+.codex/agent-memory/
+.codex/worktrees/
+production/session-state/
+production/session-logs/
+__pycache__/
+*.pyc
